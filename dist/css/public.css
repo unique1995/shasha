@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+a {
+  text-decoration: none; }
+
+.head {
+  width: 100%;
+  background: black; }
+
+.header {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+  background: black; }
+  .header .header_left {
+    width: 175px;
+    height: 30px;
+    float: left; }
+    .header .header_left :nth-child(1) {
+      width: 103px; }
+    .header .header_left :nth-child(3) {
+      margin-right: 0; }
+    .header .header_left li {
+      float: left;
+      font-size: 12px;
+      width: 24px;
+      margin-right: 9px;
+      line-height: 30px; }
+      .header .header_left li a {
+        color: #cccccc; }
+    .header .header_left li:nth-child(2):hover a {
+      color: #f35d8c; }
+    .header .header_left li:nth-child(3):hover a {
+      color: #f35d8c; }
+  .header .header_right {
+    width: 552px;
+    height: 30px;
+    float: right; }
+    .header .header_right li {
+      float: left;
+      font-size: 12px;
+      width: 92px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center; }
+      .header .header_right li a {
+        color: #cccccc; }
+        .header .header_right li a img {
+          width: 10%; }
+      .header .header_right li .header_menu {
+        float: left;
+        display: none;
+        position: relative;
+        width: 92px;
+        height: 112px;
+        z-index: 9999;
+        background: #fff; }
+        .header .header_right li .header_menu li {
+          float: left;
+          text-align: left;
+          padding-left: 12px; }
+          .header .header_right li .header_menu li a {
+            color: black; }
+    .header .header_right li:hover .header_menu {
+      display: block; }
+    .header .header_right #header_menu1 {
+      width: 290px;
+      height: 166px;
+      padding: 0 25px;
+      position: absolute;
+      right: 0;
+      z-index: 1000;
+      background: #fff;
+      border: 1px solid #ccc;
+      display: none; }
+      .header .header_right #header_menu1 li {
+        width: 92px;
+        height: 153px;
+        float: left;
+        padding-top: 12px; }
+        .header .header_right #header_menu1 li img {
+          width: 80px;
+          height: 80px;
+          display: block;
+          margin-right: 5px;
+          border: 1px solid #ccc; }
+        .header .header_right #header_menu1 li span {
+          font-size: 12px;
+          line-height: 14px;
+          display: block;
+          height: 16px; }
+
+.header .header_right li:hover {
+  background: #fff; }
+
+.header .header_right li:hover > a {
+  color: black; }
+
+.header .header_right > li > a:hover {
+  color: #ed008c; }
+
+.header_right .header_left:hover {
+  background: #fff; }
+
+#aaa > li > a:hover {
+  color: #ed008c; }
+
+.header .header_right .header_li :hover img {
+  transform: rotate(180deg); }
+
+.header .header_right :nth-last-child(1):hover #header_menu1 {
+  display: block; }
+
+.search {
+  width: 1200px;
+  height: 83px;
+  margin: 0 auto;
+  padding-top: 15px; }
+  .search .search_left {
+    width: 600px;
+    height: 83px;
+    float: left; }
+    .search .search_left h1 {
+      float: left;
+      width: 210px;
+      height: 58px; }
+      .search .search_left h1 img {
+        width: 170px;
+        height: 45px; }
+  .search .search_middle {
+    float: left;
+    width: 390px;
+    height: 44px; }
+    .search .search_middle a {
+      color: #ed008c; }
+    .search .search_middle ul {
+      height: 18px;
+      margin-top: 5px; }
+      .search .search_middle ul li {
+        float: left;
+        margin-right: 5px;
+        font-size: 12px; }
+      .search .search_middle ul img {
+        position: relative;
+        top: 4px; }
+  .search .search_right {
+    width: 600px;
+    height: 83px;
+    float: right; }
+    .search .search_right .search_input {
+      width: 440px;
+      height: 40px;
+      border: 1px solid #ed008c;
+      border-radius: 20px;
+      float: left;
+      z-index: 1; }
+      .search .search_right .search_input ul {
+        width: 436px;
+        height: 20px;
+        text-align: center; }
+        .search .search_right .search_input ul li {
+          float: left;
+          margin: 0 10px; }
+          .search .search_right .search_input ul li a {
+            color: black;
+            font-size: 12px; }
+      .search .search_right .search_input input {
+        margin: 3px 16px;
+        width: 319px;
+        height: 26px;
+        border: none;
+        outline: none; }
+      .search .search_right .search_input span {
+        background: #ed008c;
+        width: 82px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 0 20px 20px 0;
+        text-align: center;
+        position: relative;
+        top: -1px;
+        border: 1px solid #ed008c; }
+        .search .search_right .search_input span img {
+          position: relative;
+          top: 10px; }
+    .search .search_right .cart {
+      width: 106px;
+      height: 36px;
+      border: 1px solid #ed008c;
+      float: right;
+      border-radius: 20px;
+      text-align: center;
+      vertical-align: middle; }
+      .search .search_right .cart a {
+        position: relative;
+        top: 5px;
+        font-size: 14px;
+        color: #ed008c; }
+        .search .search_right .cart a span {
+          font-size: 14px;
+          color: #ed008c; }
+
+.search_right .search_input > ul > li:hover a {
+  color: #ed008c; }
+
+.nav {
+  width: 1200px;
+  height: 48px;
+  margin: 0 auto; }
+  .nav .nav_left {
+    width: 813px;
+    height: 48px; }
+    .nav .nav_left li {
+      float: left;
+      padding: 0 27px;
+      height: 48px;
+      line-height: 48px; }
+      .nav .nav_left li a {
+        color: black;
+        font-weight: 900; }
+
+.nav .nav_left li:nth-child(1) {
+  background: #ed008c; }
+  .nav .nav_left li:nth-child(1) img {
+    width: 16px;
+    height: 16px;
+    color: #ed008c;
+    margin-right: 5px; }
+  .nav .nav_left li:nth-child(1) a {
+    color: #fff; }
+
+.nav .nav_left li:hover a {
+  color: #ed008c; }
+
+.nav .nav_left li:nth-child(1):hover a {
+  color: #fff; }
